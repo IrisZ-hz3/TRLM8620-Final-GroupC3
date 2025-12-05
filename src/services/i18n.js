@@ -44,8 +44,9 @@ const i18n = {
     },
     //format date accoring to locale
     formatDate: (date) => {
+        let useLocale = currentLocal || Locale || 'en-US';
         var options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
-        return new Intl.DateTimeFormat(undefined, options).format(date); //$NON-NLS-L$
+        return new Intl.DateTimeFormat(uselocale, options).format(date); //$NON-NLS-L$
     }
 }
 
