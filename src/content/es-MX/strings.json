@@ -1,0 +1,123 @@
+{
+    "title": {
+        "1": "3P0",
+        "2": "Droide serie DUM",
+        "3": "Droide quirúrgico 2-1B",
+        "4": "Droide TRLM8620-G11N",
+        "5": "Corbeta Sphyrna",
+        "6": "Droide de reparación G2",
+        "7": "Corbeta CR90",
+        "8": "Motocicleta Speeder 74-Z",
+        "9": "Interceptor ETA-2",
+        "10": "Droide serie R3",
+        "11": "T-70 Ala-X",
+        "12": "Caza Ala-Y",
+        "13": "Superdroide táctico"
+    },
+    "desc": {
+        "1": "Cada droide está equipado con un VerboBrain SyntheTech AA-1, lo que les permite almacenar enormes cantidades de información. El espacio de memoria adicional se utiliza a menudo para mantener los módulos de comunicación en la memoria activa, de modo que se puedan evitar largas demoras al buscar información lingüística a mitad de una traducción. Un módulo de comunicaciones TranLang III les permite ser fluidos en más de seis millones de formas de comunicación. También cuentan con las habilidades necesarias para analizar rápidamente nuevos idiomas no registrados y traducirlos a otros más conocidos.",
+        "2": "Diseñados para el mantenimiento de los vainas de carreras, los droides de foso son droides de reparación asequibles y duraderos. Tienen una altura de 1,19 metros, pero poseen la capacidad de plegarse en una forma compacta cuando no están en uso. Esta función puede activarse tocándoles la nariz.",
+        "3": "El modelo de droide 2-1B es altamente avanzado e inteligente, con una programación perfeccionada por algunos de los mejores médicos de la galaxia en la Academia Médica Estatal de Rhinnal, donde también integran procesadores heurísticos. La característica más útil de los droides 2-1B es la facilidad con la que los propietarios pueden actualizar su programación y apéndices. Un droide 2-1B puede convertirse fácilmente en especialista en neurocirugía, podología, pediatría, reemplazo de extremidades cibernéticas y biología alienígena con una visita a un centro de servicio certificado.",
+        "4": "Un maltrecho droide de guerra de galactización, TRLM8620-G11N mide 1,79 metros de altura. Su puntería firme, junto con su capacidad para seguir objetivos mediante sensores avanzados que rodean su cabeza y le permiten ver en todas las direcciones, le otorgan un gran éxito. Estos sensores incluyen múltiples receptores de expansión de texto, sensores de contenido codificado y un detector de fragmentación de contenido. TRLM8620-G11N también cuenta con un vocoder en la base de la cabeza, lo que le permite hablar disparates en cualquier idioma de la galaxia. Su torso puede rotar completamente en el campo de batalla, permitiéndole aplastar bugs de localización por todos lados. Su resistente cuerpo metálico le permite sobrevivir a la mayoría de los ataques de internacionalización sin sufrir daños y cuenta con prácticas de i18n a prueba de ácido.",
+        "5": "A la estructura original de la Sphyrna se le han añadido varias funciones nuevas, incluyendo dos módulos adicionales montados a babor y estribor de la nave, seis cápsulas de escape en lugar de la bodega de carga y un cuarto motor subluz instalado sobre los tres principales, lo que le da suficiente potencia para mover por sí sola a un Destructor Estelar averiado. Mide 315 metros de longitud y alcanza una aceleración máxima de 900 kilómetros por hora. Está equipada con un sistema de hiperimpulsor.",
+        "6": "“Diseñado para ayudar con las reparaciones a bordo de las naves, el droide de reparación G2 de segundo grado es de baja estatura, con una altura de 0,8 metros. También es rechoncho, con una postura ancha y pesada en la parte inferior que lo obliga a caminar tambaleándose. Estas características, combinadas con su largo cuello articulado en múltiples puntos y sus pies ampliamente separados que distribuyen el peso, le valen el apodo de ‘droide ganso’. Cada unidad G2 tiene un armazón esquelético simplificado de color plateado y latón, con juntas y cableado expuestos, y un borde decorativo de color. Los manipuladores pesados de tres dedos del droide pueden sujetar la mayoría de las herramientas de reparación, mientras que sus pies extendidos ayudan a estabilizar su bajo centro de gravedad y le proporcionan estabilidad adicional cuando trabaja con equipos grandes y pesados.",
+        "7": "Con una longitud de 150 metros, cuenta con dos torretas de turboláser dobles y cuatro simples, y puede alcanzar una velocidad máxima de 950 km/h. Según Luke Skywalker, algunos CR90 equipados para combate pueden llevar seis turboláseres dobles. Capaz de transportar una escolta diplomática completa, tiene una capacidad de pasajeros de varios cientos. Aunque estas naves no están diseñadas como portaaviones, se pueden acoplar tres interceptores RZ-1 Ala-A a los anillos de acoplamiento, permitiendo una pequeña escolta. Sirven como columna vertebral de la primera Rebelión y de la Alianza. Aunque no están particularmente bien armadas, los CR90 poseen suficiente potencia de fuego frontal para destruir con facilidad un crucero de clase Gozanti.",
+        "8": "La Speeder Bike 74-Z es capaz de alcanzar velocidades de hasta cinco cientos kilómetros por hora y más, y tiene un techo de vuelo de veinticinco metros. Las 74-Z son la variante militar de la 74-Y civil. Se controlan mediante un manillar ubicado en la parte delantera del vehículo, y los pedales situados debajo ajustan la velocidad y la altitud. Estas vehículos altamente maniobrables están equipados con dispositivos de sensores y comunicaciones ubicados entre los manillares, incluyendo un comlink y un dispositivo de bloqueo de comlink. La speeder cuenta con sensores de seguimiento del terreno que se conectan con la pantalla HUD en el casco del conductor. Están armadas con un cañón bláster giratorio delantero para el combate.",
+        "9": "Con una longitud de 5,47 metros, el ETA-2 es un caza estelar altamente maniobrable y orientado al combate, más rápido que su predecesor Aethersprite, con motores iónicos gemelos que proporcionan una aceleración máxima de 5.200G y una velocidad máxima de 1.500 km/h. El Eta-2 cuenta con alas con paneles radiadores superiores e inferiores, llamados S-foils, que se abren para disipar el exceso de calor de los motores de la nave. Los paneles radiadores se abren principalmente durante combates intensos. Para defensa, la nave dispone de dos cañones láser y dos cañones iónicos. A diferencia de los cañones láser, los cañones iónicos disparan ráfagas de plasma que causan interrupciones eléctricas temporales en el objetivo al impactar.",
+        "10": "“El droide astromecánico de la serie R3 presenta gran parte del mismo hardware que su predecesor, la unidad R2, careciendo únicamente del sensor de video extensible del droide anterior. El chasis del R3 es en gran medida cilíndrico, pareciendo un tubo vertical con un cono truncado corto en su base. Para mantener el droide erguido, cuenta con dos patas estrechas que terminan en pies con orugas con forma de prismas trapezoidales; una tercera pata está alojada dentro del cuerpo del droide y puede extenderse cuando sea necesario para brindar mayor estabilidad. Cerrando el diseño de la unidad se encuentra una resistente cúpula giratoria de plastex o transparasteel. El astromecánico está sellado para permitir su funcionamiento en el vacío del espacio.",
+        "11": "El caza estelar T-70 X-wing es un caza cruciforme que mide 12,48 metros de longitud, con capacidad máxima para un solo piloto y un droide astromecánico cargado desde abajo, que se inserta en un conector y puede configurarse de manera variable para distintos modelos. Si es necesario, el droide puede pilotar la nave sin la ayuda de un piloto e incluso hacerlo de forma remota. La computadora de puntería, los controles de vuelo y otros instrumentos esenciales de pilotaje se encuentran dentro de un módulo de cabina blindada, bajo el cual un computador de vuelo refrigerado por líquido ayuda al piloto en las operaciones de la nave. Paneles de acceso para el computador y almacenamiento se encuentran dentro de la ‘nariz’ de la nave, junto con un generador auxiliar y un área de almacenamiento típicamente usada para guardar equipo de supervivencia. Una pequeña ventana de sensor marca la ubicación del arreglo principal de sensores de la nave en la punta del morro, situada detrás de una baliza de emergencia. Detrás del piloto, un sistema de soporte vital incorporado permite al ocupante respirar en una atmósfera oxigenada.",
+        "12": "Cariñosamente conocido como ‘hueso de la suerte’ por los pilotos de la Alianza Rebelde y de la Nueva República, el caza estelar Y-wing se despliega como un caza-bombardero, diseñado para abrirse camino hasta su objetivo, entregar su carga de explosivos y salir de nuevo combatiendo. Su armamento incluye dos cañones láser, dos cañones iónicos y dos lanzadores de torpedos protones. Un droide astromecánico, como una unidad R2, puede conectarse en un conector detrás de la cabina para actuar como copiloto y gestionar los diversos sistemas de la nave.",
+        "13": "Un droide bastante bueno para coordinar ataques. No es bueno en combate, solo es bueno planificando."
+    },
+    "Navbar": {
+        "searchPlaceholder": "¿Qué estás buscando?",
+        "searchButtonLabel": "Explorar productos",
+        "logoAlt": "Suministros de L10n Galaxy",
+        "searchIconAlt": "Buscar",
+        "greetingText": "Hola, Guerrero de G11N",
+        "historyLink": "MIS PEDIDOS",
+        "arrowAlt": "Flecha de menú",
+        "cartAlt": "Ver carrito",
+        "navLinkHome": "INICIO",
+        "navLinkDroids": "DROIDES",
+        "navLinkVehicles": "VEHÍCULOS"
+    },
+    "Home": {
+        "welcomeSubtitle": "Proporcionamos todo lo que necesitas para enfrentarte al Desafío de Galactización (G11n) — y ganarlo.",
+        "symbolAlt": "Símbolo de la moneda Crédito Imperial"
+    },
+    "Browse": {
+        "browseTitleAll": "Todo",
+        "browseTitleDroids": " Droides",
+        "browseTitleVehicles": " Vehículos"
+    },
+    
+    "Checkout": {
+        "checkoutTitle": "Pagar",
+        "shipSectionLabel": "Información de envío",
+        "firstNameLabel": "Nombre",
+        "lastNameLabel": "Apellido",
+        "coordinatesLabel": "Coordenadas",
+        "coordinatesHolder": "0,0,0",
+        "sectorLabel": "Sector",
+        "methodLabel": "Método de envío",
+        "shipLightspeed": "Velocidad de la luz",
+        "shipOvernight": "Entrega nocturna",
+        "shipStandard": "Estándar",
+        "paySectionLabel": "Pago",
+        "payNameLabel": "Nombre en la tarjeta",
+        "payNameHolder": "Nombre Apellido",
+        "accountLabel": "Número de tarjeta",
+        "accountHolder": "1234567-9876-00",
+        "securityLabel": "Código de seguridad",
+        "securityHolder": "123456",
+        "expDateLabel": "Fecha de expiración",
+        "cartTitle": "Carrito de compras",
+        "deleteAlt": "eliminar artículo del carrito",
+        "totalLabel": "Total: ",
+        "orderLabel": "REALIZAR PEDIDO",
+        "termsStatement": "He leído y acepto los Términos y Condiciones",
+        "termsLink": "(Ver)",
+        "successMessage": "¡Pedido realizado con éxito!",
+        "noItemMessage": "Agrega artículos al carrito para pagar."
+    },
+   "ProductShow": {
+        "qtyLabel": "Cant.: ",
+        "addToCartLabel": "AGREGAR AL CARRITO"
+    },
+    "Cart": {
+        "cartTitle": "Carrito de compras",
+        "noItemMsg": "No hay artículos en el carrito.",
+        "deleteAlt": "Eliminar artículo del carrito",
+        "totalTitle": "Total: ",
+        "checkoutLabel": "PAGAR",
+        "closeAlt": "Cerrar carrito"
+    },
+    "Order": {
+        "statusProcessing": "Procesando",
+        "statusShipped": "Enviado"
+    },
+    "OrderHistory": {
+        "historyTitle": "Historial de pedidos",
+        "dateHeading": "Fecha",
+        "numberHeading": "Número de pedido",
+        "totalHeading": "Total",
+        "statusHeading": "Estado"
+    },
+    "Error404": {
+        "errorMessage": "Error 404: Página no encontrada."
+    },
+    "Bottombar": {
+        "menuAlt": "abrir menú lateral"
+    },
+    "LocaleSelector": {
+        "localeLabel": "Idioma: ",
+        "localeUS": "Inglés (EE. UU.)",
+        "localeNL": "Neerlandés (NLD)",
+        "localeCN": "Chino (RPC)",
+        "localeDE": "Alemán (FRG)",
+        "LocaleTW": "Chino (TW)",
+        "localeES": "Español (MX)"
+    },
+    "Special": "Especial"
+    }

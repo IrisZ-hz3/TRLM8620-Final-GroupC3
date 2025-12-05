@@ -53,6 +53,7 @@ const i18n = {
 var currencyMap = {
     'en-US': 'USD',
     'zh-CN': 'CNY',
+    'es-MX': 'MXN',
     'nl-NL': 'EUR'
 };
 

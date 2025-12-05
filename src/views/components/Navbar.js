@@ -24,6 +24,7 @@ let Navbar = {
         let localeUS = i18n.getString("LocaleSelector", "localeUS");
         let localeCN = i18n.getString("LocaleSelector", "localeCN");
         let localeNL = i18n.getString("LocaleSelector", "localeNL");
+        let localeES = i18n.getString("LocaleSelector", "localeES");
 
 
         //view is solely for HTML markup, contains no static text
@@ -56,6 +57,7 @@ let Navbar = {
               <label for="locale"><h3>${localeLabel}</h3></label>
               <select id="locale" class="hamDrop">
                 <option value="en-US">${localeUS}</option>
+                <option value="es-MX">${localeES}</option>
                 <option value="nl-NL">${localeNL}</option>
                 <option value="zh-CN">${localeCN}</option>
               </select>
