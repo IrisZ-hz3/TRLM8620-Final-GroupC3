@@ -43,6 +43,7 @@
         "navLinkVehicles": "VEHICLES"
     },
     "Home": {
+        "welcomeTitle" : "Welcome to Galaxy L10n Supplies!",
         "welcomeSubtitle": "We provide everything you need to take on the Galactization (G11n) Challenge (and win).",
         "symbolAlt": "Imperial Credit currency symbol"
     },
