@@ -6,7 +6,7 @@
         "4": "TRLM8620-G11N Droid",
         "5": "Sphyrna Corvette",
         "6": "G2 Repair Droid",
-        "7": "CR90 Corvettpython3 -m http.server 8080e",
+        "7": "CR90 Corvette",
         "8": "74-Z Speeder Bike",
         "9": "ETA-2 Interceptor",
         "10": "R3-Series Droid",
@@ -96,7 +96,8 @@
     },
     "Order": {
         "statusProcessing": "Processing",
-        "statusShipped": "Shipped"
+        "statusShipped": "Shipped",
+        "statusDelivered": "Delivered"
     },
     "OrderHistory": {
         "historyTitle": "Order History",
