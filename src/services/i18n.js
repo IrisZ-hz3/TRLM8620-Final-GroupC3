@@ -57,11 +57,10 @@ const i18n = {
         // Correct the locale check for Mexican Spanish
         if (useLocale.toLowerCase() === 'es-mx') {
             options = {
-                weekday: 'short',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            }; // Example: viernes, 5 de diciembre de 2025
+                day: 'numeric',
+                month: 'numeric',
+                year: 'numeric'
+            }; // Example: 5/12/2025
         } else if (useLocale.toLowerCase() === 'en-us') {
             options = {
                 weekday: 'short',
