@@ -96,7 +96,8 @@
     },
     "Order": {
         "statusProcessing": "Procesando",
-        "statusShipped": "Enviado"
+        "statusShipped": "Enviado",
+        "statusDelivered": "Entregado"
     },
     "OrderHistory": {
         "historyTitle": "Historial de pedidos",
