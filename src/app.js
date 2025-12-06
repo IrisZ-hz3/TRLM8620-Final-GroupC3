@@ -142,6 +142,14 @@ let getProductsList = async() => {
 
     //pick the "featured products"
     await getFeaturedProducts();
+    //set localized site title (if available) after strings are loaded
+    try {
+        const siteTitle = i18n.getString("App", "title");
+        if (siteTitle) document.title = siteTitle;
+    } catch (err) {
+        // if strings aren't available, leave the existing title
+        console.warn('Failed to set localized title', err);
+    }
     //load cart contents fromlocalStorage if available
     //localStorage.removeItem('cart');
     readCart();
