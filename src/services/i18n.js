@@ -43,42 +43,35 @@ const i18n = {
         return `${locale}/terms.html`; //$NON-NLS-L$ 
     },
 
-    // format date according to locale
-    formatDate: (date) => {
-        let useLocale = currentLocal || Locale || 'en-US';
+   formatDate: (date) => {
+    let useLocale = currentLocal || Locale || 'en-US';
 
-        // If the language is set to MX, use es-MX date format
-        if (useLocale.toLowerCase() === 'ES') {
-            useLocale = 'es-MX';
-        }
+    // Normalize ANY Spanish locale (es, es-mx, es-es, etc.)
+    const localeLower = useLocale.toLowerCase();
+    let options;
 
-        // Customize date format options based on locale
-        let options;
-        // Correct the locale check for Mexican Spanish
-        if (useLocale.toLowerCase() === 'es-mx') {
-            options = {
-                day: 'numeric',
-                month: 'numeric',
-                year: 'numeric'
-            }; // Example: 5/12/2025
-        } else if (useLocale.toLowerCase() === 'en-us') {
-            options = {
-                weekday: 'short',
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric'
-            }; // Example: Fri, Dec 5, 2025
-        } else {
-            options = {
-                weekday: 'short',
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric'
-            }; // Default format
-        }
+    if (localeLower.startsWith('es')) {
+        // Spanish → DD/MM/YYYY
+        options = {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric'
+        };
+        useLocale = 'es-MX'; // ensures correct ordering
+    } 
+    else {
+        // English or anything else
+        options = {
+            weekday: 'short',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+        };
+        useLocale = 'en-US';
+    }
 
-        return new Intl.DateTimeFormat(useLocale, options).format(date);
-    },
+    return new Intl.DateTimeFormat(useLocale, options).format(date);
+},
 
 }
 
