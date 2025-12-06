@@ -48,12 +48,13 @@ const i18n = {
         let useLocale = currentLocal || Locale || 'en-US';
 
         // If the language is set to MX, use es-MX date format
-        if (useLocale.toLowerCase() === 'mx') {
+        if (useLocale.toLowerCase() === 'ES') {
             useLocale = 'es-MX';
         }
 
         // Customize date format options based on locale
         let options;
+        // Correct the locale check for Mexican Spanish
         if (useLocale.toLowerCase() === 'es-mx') {
             options = {
                 weekday: 'short',
