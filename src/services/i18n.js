@@ -42,12 +42,44 @@ const i18n = {
     getHTML: () => {
         return `${locale}/terms.html`; //$NON-NLS-L$ 
     },
-    //format date accoring to locale
+
+    // format date according to locale
     formatDate: (date) => {
         let useLocale = currentLocal || Locale || 'en-US';
-        var options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
-        return new Intl.DateTimeFormat(uselocale, options).format(date); //$NON-NLS-L$
-    }
+
+        // If the language is set to MX, use es-MX date format
+        if (useLocale.toLowerCase() === 'mx') {
+            useLocale = 'es-MX';
+        }
+
+        // Customize date format options based on locale
+        let options;
+        if (useLocale.toLowerCase() === 'es-mx') {
+            options = {
+                weekday: 'short',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            }; // Example: viernes, 5 de diciembre de 2025
+        } else if (useLocale.toLowerCase() === 'en-us') {
+            options = {
+                weekday: 'short',
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            }; // Example: Fri, Dec 5, 2025
+        } else {
+            options = {
+                weekday: 'short',
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            }; // Default format
+        }
+
+        return new Intl.DateTimeFormat(useLocale, options).format(date);
+    },
+
 }
 
 //used to determine the correct currency symbol
