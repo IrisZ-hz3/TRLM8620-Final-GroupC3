@@ -43,35 +43,21 @@ const i18n = {
         return `${locale}/terms.html`; //$NON-NLS-L$ 
     },
 
-   formatDate: (date) => {
-    let useLocale = currentLocal || Locale || 'en-US';
+    formatDate: (date, numeric = false) => {
+        // Ensure the input is a valid Date object
+        const d = date instanceof Date ? date : new Date(date);
 
-    // Normalize ANY Spanish locale (es, es-mx, es-es, etc.)
-    const localeLower = useLocale.toLowerCase();
-    let options;
+        // Use the app's current locale or default to 'en-US'
+        const useLocale = typeof locale !== 'undefined' ? locale : 'en-US'; // Dynamically retrieve the latest `locale` value
 
-    if (localeLower.startsWith('es')) {
-        // Spanish → DD/MM/YYYY
-        options = {
-            day: '2-digit',
-            month: '2-digit',
-            year: 'numeric'
-        };
-        useLocale = 'es-MX'; // ensures correct ordering
-    } 
-    else {
-        // English or anything else
-        options = {
-            weekday: 'short',
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric'
-        };
-        useLocale = 'en-US';
-    }
+        // Define options for date formatting
+        const options = numeric
+            ? { day: '2-digit', month: '2-digit', year: 'numeric' } // Numeric format: 06/12/2025
+            : undefined; // Default locale-specific format
 
-    return new Intl.DateTimeFormat(useLocale, options).format(date);
-},
+        // Format the date using Intl.DateTimeFormat
+        return new Intl.DateTimeFormat(useLocale, options).format(d);
+    },
 
 }
 

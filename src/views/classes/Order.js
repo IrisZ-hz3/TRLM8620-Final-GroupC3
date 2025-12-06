@@ -19,12 +19,8 @@ class Order {
     }
 
     getOrderDate() {
-        var dd = String(this.orderDate.getDate()).padStart(2, '0');
-        var mm = String(this.orderDate.getMonth() + 1).padStart(2, '0'); //January is 0!
-        var yyyy = this.orderDate.getFullYear();
-
-        let date = mm + '/' + dd + '/' + yyyy;
-        return date;
+        // Use i18n.formatDate to format the order date based on the current locale
+        return i18n.formatDate(this.orderDate);
     }
 
     //create a dummy "order status" string
