@@ -121,5 +121,7 @@
         "LocaleTW": "Chinese (TW)",
         "localeES": "Spanish (MX)"  
     },
-    "Special": "Special"
+    "Special": "Special",
+    "monthPlaceholder": "MM",
+    "yearPlaceholder": "JJ"
 }

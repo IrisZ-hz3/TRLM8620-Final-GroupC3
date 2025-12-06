@@ -80,7 +80,9 @@
         "termsStatement": "He leído y acepto los Términos y Condiciones",
         "termsLink": "(Ver)",
         "successMessage": "¡Pedido realizado con éxito!",
-        "noItemMessage": "Agrega artículos al carrito para pagar."
+        "noItemMessage": "Agrega artículos al carrito para pagar.",
+        "monthPlaceholder": "MM",
+        "yearPlaceholder": "AA"
     },
    "ProductShow": {
         "qtyLabel": "Cant.: ",

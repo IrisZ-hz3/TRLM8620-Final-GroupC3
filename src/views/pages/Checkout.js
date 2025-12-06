@@ -38,6 +38,8 @@ let Checkout = {
         let termsStatement = i18n.getString("Checkout", "termsStatement");
         let termsLink = i18n.getString("Checkout", "termsLink");
         let noItemMessage = i18n.getString("Checkout", "noItemMessage");
+        let monthPlaceholder = i18n.getString("Checkout", "monthPlaceholder");
+        let yearPlaceholder = i18n.getString("Checkout", "yearPlaceholder");
 
         total = 0;
         //hide cart initially
@@ -109,7 +111,7 @@ let Checkout = {
                                 <label for="expDate">${expDateLabel}</label>
                                 <div id="expDropdown">
                                     <select id="expDate" name="expDate" class="checkoutInput">
-                                        <option value="" disabled selected hidden>MM</option>
+                                        <option value="" disabled selected hidden>${monthPlaceholder}</option>
                                         `;
         for (let i = 1; i <= 12; i++) {
             var formattedNumber = ("0" + i).slice(-2); //$NON-NLS-L$
@@ -119,7 +121,7 @@ let Checkout = {
                                     </select>
                                     <h3>/</h3>
                                     <select id="expDateYear" name="expDateYear" class="checkoutInput">
-                                        <option value="" disabled selected hidden>YY</option>
+                                        <option value="" disabled selected hidden>${yearPlaceholder}</option>
                                         `;
         for (let i = 25; i <= 40; i++) {
             var formattedNumber = ("0" + i).slice(-2); //$NON-NLS-L$
